@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ANNA.EXE — A Work in Progress</title>
+<meta name="description" content="Anna Maria Prince: CS student and experimental builder. AI, systems, software.">
+<link rel="stylesheet" href="style.css">
+<script src="data.js"></script><script src="app.js" defer></script></head>
+<body class="locked">
+<a class="skip" href="#main">Skip to content</a>
+<header class="bar"><a href="#hero" class="logo">anna.exe</a>
+<nav aria-label="Sections"><a href="#projects">projects</a><a href="#lab">lab</a><a href="#wall">wall</a><a href="#human">human</a><a href="#archive">archive</a><a href="#contact">contact</a></nav>
+<button id="kbtn" class="ghost" aria-label="Open command palette">Ctrl/⌘ K</button></header>
+<main id="main">
+<section id="hero"><p class="status">CURRENTLY EXPLORING: AI × SYSTEMS × SOFTWARE</p>
+<h1>Hi, I'm Anna.<br><span>I build things to understand how they work.</span></h1>
+<div class="term" aria-label="Things I do"><span class="pr">anna@lab:~$</span> <span id="typed"></span><i class="cur"></i></div>
+<button id="enter" class="cta">ENTER MY WORLD</button></section>
+<section id="projects"><h2>Things I've built</h2><p class="sub">Open a project to switch between what I explored, how it works, and what I learned.</p><div id="pgrid" class="pgrid"></div></section>
+<section id="lab"><h2>The lab</h2><p class="sub">Interests, connected. Click or focus a node.</p><div class="labwrap"><svg id="net" viewBox="0 0 600 400" role="group" aria-label="Interest network"></svg><div id="npanel" class="npanel" aria-live="polite"></div></div></section>
+<section id="wall"><h2>Outside the code editor</h2><p class="sub">Stamps tell you what kind of thing each one is.</p><div id="wallgrid" class="wall"></div></section>
+<section id="human"><h2>The human behind the experiments</h2><div class="human"><p>I'm a third-year Computer Science and Engineering student. I like understanding how systems actually work, making ideas tangible, building with other people, and wandering into fields I don't know yet.</p>
+<aside class="corner"><h3>Creative corner</h3><div id="corner"></div></aside></div></section>
+<section id="archive"><h2>Tiny archive</h2><p class="sub">Notes, hackathon lessons, write-ups. Add an entry in <code>data.js</code>.</p><div id="arch" class="arch"></div></section>
+<section id="contact"><h2 class="big">Have a strange idea? Let's build it.</h2><div id="clinks" class="clinks"></div></section>
+</main>
+<footer>© <span id="yr"></span> Anna Maria Prince · made by hand, still compiling</footer>
+<div id="pal" class="pal" hidden role="dialog" aria-modal="true" aria-label="Command palette"><div class="pbox"><input id="pin" placeholder="Jump to…" aria-label="Search commands"><ul id="plist"></ul></div></div>
+<noscript><p style="padding:2rem">This site needs JavaScript to run.</p></noscript>
+</body></html>
